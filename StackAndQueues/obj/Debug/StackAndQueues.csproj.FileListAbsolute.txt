@@ -1,0 +1,8 @@
+H:\C# Project\StackAndQueues\StackAndQueues\bin\Debug\StackAndQueues.exe.config
+H:\C# Project\StackAndQueues\StackAndQueues\bin\Debug\StackAndQueues.exe
+H:\C# Project\StackAndQueues\StackAndQueues\bin\Debug\StackAndQueues.pdb
+H:\C# Project\StackAndQueues\StackAndQueues\obj\Debug\StackAndQueues.csproj.AssemblyReference.cache
+H:\C# Project\StackAndQueues\StackAndQueues\obj\Debug\StackAndQueues.csproj.SuggestedBindingRedirects.cache
+H:\C# Project\StackAndQueues\StackAndQueues\obj\Debug\StackAndQueues.csproj.CoreCompileInputs.cache
+H:\C# Project\StackAndQueues\StackAndQueues\obj\Debug\StackAndQueues.exe
+H:\C# Project\StackAndQueues\StackAndQueues\obj\Debug\StackAndQueues.pdb
