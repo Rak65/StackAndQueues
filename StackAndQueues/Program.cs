@@ -10,18 +10,12 @@ namespace StackAndQueues
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Create a Stack.");
-            LinkedList stack = new LinkedList();
-            stack.Push(56);
-            stack.Push(30);
-            stack.Push(70);
-            stack.Display();
-
-            stack.Pop();
-            stack.Pop();
-            stack.Pop();
-            stack.Peek();
-            stack.Display();
+            Console.WriteLine("Create a Queue");
+            LinkedList queue = new LinkedList();
+            queue.Enqueue(56);
+            queue.Enqueue(30);
+            queue.Enqueue(70);
+            queue.Display();
             Console .ReadKey();
         }
     }
