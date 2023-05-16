@@ -16,6 +16,12 @@ namespace StackAndQueues
             stack.Push(30);
             stack.Push(70);
             stack.Display();
+
+            stack.Pop();
+            stack.Pop();
+            stack.Pop();
+            stack.Peek();
+            stack.Display();
             Console .ReadKey();
         }
     }
