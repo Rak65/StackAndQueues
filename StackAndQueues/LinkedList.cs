@@ -9,7 +9,7 @@ namespace StackAndQueues
     public class LinkedList
     {
         public Node head;
-        public void Enqueue(int data)
+        public void Queue(int data)
         {
             Node node = new Node(data);
             if (this.head == null)
@@ -26,6 +26,14 @@ namespace StackAndQueues
                 temp.next = node;
             }
             Console.WriteLine("{0} inserted into Linked List", node.data);
+        }
+        public void Dequeue()
+        {
+            while (this.head != null)
+            {
+                Console.WriteLine("Queue value {0} is removed", this.head.data);
+                this.head = this.head.next;
+            }
         }
         public void Display()
         {

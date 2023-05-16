@@ -12,9 +12,14 @@ namespace StackAndQueues
         {
             Console.WriteLine("Create a Queue");
             LinkedList queue = new LinkedList();
-            queue.Enqueue(56);
-            queue.Enqueue(30);
-            queue.Enqueue(70);
+            queue.Queue(56);
+            queue.Queue(30);
+            queue.Queue(70);
+            queue.Display();
+
+            queue.Dequeue();
+            queue.Dequeue();
+            queue.Dequeue();
             queue.Display();
             Console .ReadKey();
         }
